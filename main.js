@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 
 // URL of the WebSocket server
-const url = "wss:///realtime.haire.ai/ws/interview_process/897912";
+const url = "wss:///realtime.haire.ai/ws/interview_process/897912/";
 
 // Function to handle WebSocket connection
 function setupWebSocket() {
