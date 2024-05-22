@@ -46,4 +46,4 @@ function simulateUsers(userCount) {
 }
 
 // Start the test with a specific number of simulated users
-simulateUsers(2); // Adjust the number as necessary for your load test
+simulateUsers(1); // Adjust the number as necessary for your load test
