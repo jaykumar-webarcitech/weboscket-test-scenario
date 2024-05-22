@@ -25,6 +25,7 @@ function setupWebSocket() {
   // Event handler for when a message is received from the server
   ws.on("message", function incoming(message) {
     console.log("Received:", message);
+    ws.close();
   });
 
   // Event handler for handling errors
